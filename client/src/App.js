@@ -1,8 +1,5 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import LandingPage from './views/landingPage';
-import Contact from './views/contact';
 
 function App() {
   return (
@@ -18,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
