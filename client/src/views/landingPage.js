@@ -1,8 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Img1 from './assets/scr1.JPG';
-import Img2 from './assets/nachoMamas.png';
-import Img3 from './assets/workout.png';
+import Img1 from '../assets/scr1.JPG';
+import Img2 from '../assets/nachoMamas.png';
+import Img3 from '../assets/workout.png';
 
 function LandingPage() {
     return (

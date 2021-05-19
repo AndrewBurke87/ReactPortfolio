@@ -1,11 +1,12 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Contact() {
     return (
         <>
             <div class="container text-center p-3">
                 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-                    <a class="navbar-brand" href="index.html"></a>
+                    <a class="navbar-brand" href="/"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -14,10 +15,10 @@ function Contact() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Portfolio</a>
+                                <a class="nav-link" href="/">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>
