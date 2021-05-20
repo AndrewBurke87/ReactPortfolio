@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Contact() {
     return (
         <>
-            <div class="container text-center p-3">
+            <div id="contact" class="container text-center p-3">
                 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
                     <a class="navbar-brand" href="/"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

@@ -6,11 +6,11 @@ import Contact from './views/contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <>
         <Switch>
-          <Route exact path="/" component={LandingPage} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="#" component={LandingPage} />
+          <Route exact path="#contact" component={Contact} />
         </Switch>
       </>
     </Router>
