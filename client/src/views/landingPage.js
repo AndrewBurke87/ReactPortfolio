@@ -18,10 +18,10 @@ function LandingPage() {
 
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <a className="nav-link" href="landingPage.js">Portfolio</a>
+                                <a className="nav-link" href="/landingPage">Portfolio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="contact.js">Contact</a>
+                                <a className="nav-link" href="/contact">Contact</a>
                             </li>
                         </ul>
 
