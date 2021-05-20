@@ -3,13 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Img1 from '../assets/scr1.JPG';
 import Img2 from '../assets/nachoMamas.png';
 import Img3 from '../assets/workout.png';
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
     return (
         <>
             <div className="container p-3">
                 <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
-                    <a className="navbar-brand" href="index.html"></a>
+                    <Link className="navbar-brand" to="/"></Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -18,10 +19,10 @@ function LandingPage() {
 
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <a className="nav-link" href="/landingPage">Portfolio</a>
+                                <Link className="nav-link" to="/landingPage">Portfolio</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/contact">Contact</a>
+                                <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
                         </ul>
 
@@ -42,8 +43,8 @@ function LandingPage() {
                         This was a group Project that was required many different technologies like Mysql, Handlebars, Plotly, Sequelize and Passportjs. The application is intended to track symptoms of patients how have received the covid 19 vaccination. It tracks result based off of three catagories(Race, Age and Sex) after gather the information the results are graphed using Plotly and displayed to the user. I was a great learning experience and I really learned a lot about how to work with other developers.
         <br /><br />
 
-                        <p>Deployed Application: <a href='https://jab-effects.herokuapp.com'>Jab Effects</a></p>
-                        <p>Github Repository: <a href=' https://github.com/krcook1980/Jabs'> hhttps://github.com/krcook1980/Jabs</a></p>
+                        <p>Deployed Application: <Link to='https://jab-effects.herokuapp.com'>Jab Effects</Link></p>
+                        <p>Github Repository: <Link to=' https://github.com/krcook1980/Jabs'> hhttps://github.com/krcook1980/Jabs</Link></p>
 
 
                     </div>
@@ -53,10 +54,11 @@ function LandingPage() {
                 <div className="row">
                     <div className="col-sm-6 my-auto">
                         This Application is another quiz but with a sense of humor. As a group we used apis and front end technologies to make a fun and enjoyable game that anyone can enjoy.<br /><br />
-                        <p>Deployed Application: <a href='https://e-martinez77.github.io/Project-1/'>Nacho Mama's Quiz</a>
+                        <p>Deployed Application: <Link to='https://e-martinez77.github.io/Project-1/'>Nacho Mama's Quiz</Link>
                         </p>
-                        <p>Github Repository: <a
-                            href='https://github.com/E-Martinez77/Project-1'>https://github.com/E-Martinez77/Project-1</a>
+                        <p>Github Repository:
+                            <Link
+                                to='https://github.com/E-Martinez77/Project-1'>https://github.com/E-Martinez77/Project-1</Link>
                         </p>
                     </div>
                     <div className="col-sm-6">
@@ -78,10 +80,10 @@ function LandingPage() {
                         <div className="col-sm-6 my-auto">
                             This application tracks your workouts over the course of a week. This makes it easier to stick to a routine and or create a new workout plan.
          <br /><br />
-                            <p>Deployed Application: <a href='https://ajb-workouttracker.herokuapp.com/'>Workout Tracker</a>
+                            <p>Deployed Application: <Link to='https://ajb-workouttracker.herokuapp.com/'>Workout Tracker</Link>
                             </p>
-                            <p>Github Repository: <a
-                                href='https://github.com/AndrewBurke87/workoutTracker'>https://github.com/AndrewBurke87/workoutTracker</a>
+                            <p>Github Repository: <Link
+                                to='https://github.com/AndrewBurke87/workoutTracker'>https://github.com/AndrewBurke87/workoutTracker</Link>
                             </p>
                         </div>
                     </div>
