@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.e7071240.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.e7071240.chunk.js.map",
+    "main.js": "/reactPortfolio/static/js/main.2fd17775.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.2fd17775.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.1fc3021e.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.1fc3021e.js.map",
     "static/css/2.61b4cb56.chunk.css": "/reactPortfolio/static/css/2.61b4cb56.chunk.css",
@@ -14,7 +14,6 @@
     "static/css/2.61b4cb56.chunk.css.map": "/reactPortfolio/static/css/2.61b4cb56.chunk.css.map",
     "static/css/main.9d5b29c0.chunk.css.map": "/reactPortfolio/static/css/main.9d5b29c0.chunk.css.map",
     "static/js/2.072b6e2f.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.072b6e2f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/reactPortfolio/static/media/logo.6ce24c58.svg",
     "static/media/nachoMamas.69a6c7dd.png": "/reactPortfolio/static/media/nachoMamas.69a6c7dd.png",
     "static/media/scr1.aca8c180.JPG": "/reactPortfolio/static/media/scr1.aca8c180.JPG",
     "static/media/workout.fe79598e.png": "/reactPortfolio/static/media/workout.fe79598e.png"
@@ -24,6 +23,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.072b6e2f.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.e7071240.chunk.js"
+    "static/js/main.2fd17775.chunk.js"
   ]
 }
