@@ -19,7 +19,7 @@ function LandingPage() {
 
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/landingPage">Portfolio</Link>
+                                <Link className="nav-link" to="/">Portfolio</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact</Link>

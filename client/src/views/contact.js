@@ -16,10 +16,10 @@ function Contact() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <Link className="nav-link" to="#">Portfolio</Link>
+                                <Link className="nav-link" to="/">Portfolio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#contact">Contact</Link>
+                                <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

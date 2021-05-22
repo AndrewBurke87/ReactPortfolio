@@ -1,16 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from './views/landingPage';
 import Contact from './views/contact';
-
+const basename = "/";
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <>
         <Switch>
-          <Route exact path="#" component={LandingPage} />
-          <Route exact path="#contact" component={Contact} />
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </>
     </Router>
