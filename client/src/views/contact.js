@@ -26,7 +26,7 @@ function Contact() {
                 </nav>
                 <br /><br />
 
-                <img src="https://scontent-fml2-1.xx.fbcdn.net/v/t31.18172-8/18738576_10207455263854442_7983436268329434630_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=174925&_nc_ohc=_wOOVPUytVwAX9MPZlO&_nc_ht=scontent-fml2-1.xx&oh=a268dce3ada626c18285924c9e91ef84&oe=60AF97B7" className="rounded-pill mx-auto d-block img-fluid p-3"
+                <img src="https://media-exp1.licdn.com/dms/image/C5603AQE9Ieomam-dWA/profile-displayphoto-shrink_400_400/0/1621296578980?e=1627516800&v=beta&t=R7cwW3AhwttBzssMfwdS1T_5aFdn3BwpBmaoXykvI54" className="rounded-pill mx-auto d-block img-fluid p-3"
                     alt="This me now! lol" />
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
