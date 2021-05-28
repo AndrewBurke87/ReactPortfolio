@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Img1 from '../assets/scr1.JPG';
 import Img2 from '../assets/nachoMamas.png';
-import Img3 from '../assets/workout.png';
+import Img3 from '../assets/loveIsBlind.png';
 import { Link } from 'react-router-dom';
 
 function LandingPage() {
@@ -30,7 +30,7 @@ function LandingPage() {
                 </nav>
                 <br /><br />
                 <hr className="my-2" />
-                <h2 className="display-4 pl-3">Project 2: Jabs</h2>
+                <h2 className="display-4 pl-3">Project: Jab Effects</h2>
                 <div className="row">
                     <div className="col-sm-7">
                         <figure className="figure">
@@ -68,22 +68,22 @@ function LandingPage() {
                         <figcaption className="figure-caption text-center">Screenshot of nacho Mama's Quiz</figcaption>
                     </div>
                     <hr className="my-2" />
-                    <h2 className="display-4 pl-3">Workout Tracker!</h2>
+                    <h2 className="display-4 pl-3">Project: Love is Blind!</h2>
                     <div className="row">
                         <div className="col-sm-6">
                             <figure className="figure">
                                 <img src={Img3} className="figure-img img-fluid d-block shadow-sm p-3 mb-5 bg-white rounded"
                                     alt="Screenshot of Workout Tracker" />
-                                <figcaption className="figure-caption">A screenshot of the Workout Tracker!</figcaption>
+                                <figcaption className="figure-caption">A screenshot of the Love is Blind!</figcaption>
                             </figure>
                         </div>
                         <div className="col-sm-6 my-auto">
-                            This application tracks your workouts over the course of a week. This makes it easier to stick to a routine and or create a new workout plan.
+                            This dating/chat app matches users based on common interests and allows them to chat. With no pictures allowed, this dating app is making genuine connections for genuine people.
          <br /><br />
-                            <p>Deployed Application: <Link to='https://ajb-workouttracker.herokuapp.com/'>Workout Tracker</Link>
+                            <p>Deployed Application: <Link to='https://love-is-blind.herokuapp.com'>Love is Blind</Link>
                             </p>
                             <p>Github Repository: <Link
-                                to='https://github.com/AndrewBurke87/workoutTracker'>https://github.com/AndrewBurke87/workoutTracker</Link>
+                                to='https://github.com/krcook1980/DatingApp'>https://github.com/krcook1980/DatingApp</Link>
                             </p>
                         </div>
                     </div>
