@@ -35,7 +35,7 @@ function Contact() {
                         <p className="lead">(801)-898-4335</p>
                         <Link className="lead" to="https://github.com/AndrewBurke87">GitHub</Link>
                         <Link className="lead" to="https://www.linkedin.com/in/AndrewBurke87/">LinkedIn</Link><br />
-                        <Link className="lead" to="https://docs.google.com/document/d/1fiSLURd5TCan_9eU0RBUCyWIRPXhq7UMZ7o8YNcemZM/edit?usp=sharing">Resume</Link>
+                        <Link className="lead" to="file:///Users/andrewburke/Downloads/Hillard%20Creatives%20Inc.%20March%202012%20-%20June%202015.pdf">Resume</Link>
                     </div>
                 </div>
                 <footer>
