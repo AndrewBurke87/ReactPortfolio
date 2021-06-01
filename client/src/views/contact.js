@@ -33,15 +33,30 @@ function Contact() {
                         <h1 className="display-4">Contact me</h1>
                         <p className="lead">Andrew Burke</p>
                         <p className="lead">(801)-898-4335</p>
-                        <Link className="lead" to="https://github.com/AndrewBurke87">GitHub</Link><br />
-                        <Link className="lead" to="https://www.linkedin.com/in/andrewburke87">LinkedIn</Link><br />
-                        <Link className="lead" to="file:///Users/andrewburke/Downloads/Hillard%20Creatives%20Inc.%20March%202012%20-%20June%202015.pdf">Resume</Link>
+
+                        {/* <Link className="lead" to="https://github.com/AndrewBurke87">GitHub</Link><br /> */}
+                        {/* <Link className="lead" to="https://www.linkedin.com/in/andrewburke87">LinkedIn</Link><br /> */}
+                        {/* <Link className="lead" to="file:///Users/andrewburke/Downloads/Hillard%20Creatives%20Inc.%20March%202012%20-%20June%202015.pdf">Resume</Link> */}
                     </div>
                 </div>
                 <footer>
-                    <div className="card text-black fixed-bottom align-items-center">
-                        <div className="card-body">
-                            <h4 className="card-title text-muted">Drewburke39@gmail.com</h4>
+                    <div className="container">
+                        <div className="row mt-4">
+                            <div className="col-md-3">
+                                <a href="https://github.com/AndrewBurke87" target="blank">Github</a>
+                            </div>
+                            <div className="col-md-3">
+                                <a href="https://www.linkedin.com/in/andrewburke87" target="blank">LinkedIn</a>
+                            </div>
+                            <div className="col-md-3">
+                                {/* Email */}
+                                <a href="mailto:drewburke39@gmail.com" target="blank">Email</a>
+                            </div>
+                            <div className="col-md-3">
+
+                                <a href="https://www.canva.com/design/DAEegba-hJI/Z7PblD1w_ajIlt3h27X-Tw/view?utm_content=DAEegba-hJI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Resume</a>
+
+                            </div>
                         </div>
                     </div>
                 </footer>
