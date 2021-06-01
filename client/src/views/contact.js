@@ -33,8 +33,8 @@ function Contact() {
                         <h1 className="display-4">Contact me</h1>
                         <p className="lead">Andrew Burke</p>
                         <p className="lead">(801)-898-4335</p>
-                        <Link className="lead" to="https://github.com/AndrewBurke87">GitHub</Link>
-                        <Link className="lead" to="https://www.linkedin.com/in/AndrewBurke87/">LinkedIn</Link><br />
+                        <Link className="lead" to="https://github.com/AndrewBurke87">GitHub</Link><br />
+                        <Link className="lead" to="https://www.linkedin.com/in/andrewburke87">LinkedIn</Link><br />
                         <Link className="lead" to="file:///Users/andrewburke/Downloads/Hillard%20Creatives%20Inc.%20March%202012%20-%20June%202015.pdf">Resume</Link>
                     </div>
                 </div>
