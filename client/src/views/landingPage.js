@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Img1 from '../assets/scr1.JPG';
-import Img2 from '../assets/nachoMamas.png';
+import Img2 from '../assets/workout.png';
 import Img3 from '../assets/loveIsBlind.png';
 import { Link } from 'react-router-dom';
 
@@ -50,22 +50,22 @@ function LandingPage() {
                     </div>
                 </div>
                 <hr className="my-2" />
-                <h2 className="display-4 pl-3 text-right">Project: Nacho Mama's Quiz</h2>
+                <h2 className="display-4 pl-3 text-right">Project: Workout Tracker</h2>
                 <div className="row">
                     <div className="col-sm-6 my-auto">
-                        This Application is another quiz but with a sense of humor. As a group we used apis and front end technologies to make a fun and enjoyable game that anyone can enjoy.<br /><br />
-                        <p>Deployed Application: <Link to='https://e-martinez77.github.io/Project-1/'>Nacho Mama's Quiz</Link>
+                        An application that tracks your workouts.<br /><br />
+                        <p>Deployed Application: <Link to='https://github.com/AndrewBurke87/workoutTracker'>Workout Tracker</Link>
                         </p>
                         <p>Github Repository:
                             <Link
-                                to='https://github.com/E-Martinez77/Project-1'>https://github.com/E-Martinez77/Project-1</Link>
+                                to='https://ajb-workouttracker.herokuapp.com/'>https://ajb-workouttracker.herokuapp.com/</Link>
                         </p>
                     </div>
                     <div className="col-sm-6">
                         <img src={Img2}
                             className="figure-img img-fluid mx-auto d-block shadow-sm p-3 mb-5 bg-white rounded"
-                            alt="Screenshot of nacho Mama's Quiz" />
-                        <figcaption className="figure-caption text-center">Screenshot of nacho Mama's Quiz</figcaption>
+                            alt="Screenshot of Workout Tracker" />
+                        <figcaption className="figure-caption text-center">Screenshot of Workout Tracker</figcaption>
                     </div>
                     <hr className="my-2" />
                     <h2 className="display-4 pl-3">Project: Love is Blind!</h2>
