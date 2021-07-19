@@ -30,6 +30,8 @@ function Contact() {
                     alt="This me now! lol" />
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
+                        <h1 className="display-4">About me</h1>
+                        <p className="lead">Full Stack Web Developer with a background in Sales and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Known among my teams for leadership and attention to detail no matter the complexity of the project.  </p>
                         <h1 className="display-4">Contact me</h1>
                         <p className="lead">Andrew Burke</p>
                         <p className="lead">(801)-898-4335</p>
