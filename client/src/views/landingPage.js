@@ -53,7 +53,7 @@ function LandingPage() {
                 <h2 className="display-4 pl-3 text-right">Project: Workout Tracker</h2>
                 <div className="row">
                     <div className="col-sm-6 my-auto">
-                        An application that tracks your workouts.<br /><br />
+                        An application that tracks your workouts. Technologies used Mongoose, Express and JavaScript<br /><br />
                         <p>Deployed Application: <Link to='https://github.com/AndrewBurke87/workoutTracker'>Workout Tracker</Link>
                         </p>
                         <p>Github Repository:
@@ -78,7 +78,7 @@ function LandingPage() {
                             </figure>
                         </div>
                         <div className="col-sm-6 my-auto">
-                            This was a group project that required many different technologies like MongoDB, Socket.io, Heroku, React and Passport.js. This dating/chat app matches users based on common interests and allows them to chat. With no pictures allowed, this dating app is making genuine connections for genuine people.
+                            This was a group project that required many different technologies like MongoDB, Socket.io, Heroku, React, Node.js, Express and Passport.js. This dating/chat app matches users based on common interests and allows them to chat. With no pictures allowed, this dating app is making genuine connections for genuine people.
          <br /><br />
                             <p>Deployed Application: <Link to='https://love-is-blind.herokuapp.com'>Love is Blind</Link>
                             </p>
