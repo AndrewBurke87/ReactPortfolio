@@ -78,7 +78,7 @@ function LandingPage() {
                             </figure>
                         </div>
                         <div className="col-sm-6 my-auto">
-                            This dating/chat app matches users based on common interests and allows them to chat. With no pictures allowed, this dating app is making genuine connections for genuine people.
+                            This was a group project that required many different technologies like MongoDB, Socket.io, Heroku, React and Passport.js. This dating/chat app matches users based on common interests and allows them to chat. With no pictures allowed, this dating app is making genuine connections for genuine people.
          <br /><br />
                             <p>Deployed Application: <Link to='https://love-is-blind.herokuapp.com'>Love is Blind</Link>
                             </p>
