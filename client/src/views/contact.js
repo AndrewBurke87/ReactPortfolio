@@ -52,7 +52,7 @@ function Contact() {
                             </div>
                             <div className="col-md-3">
                                 {/* Email */}
-                                <a href="mailto:drewburke39@gmail.com" target="blank">Email</a>
+                                <a href="mailto:andrewburkedev@gmail.com" target="blank">Email</a>
                             </div>
                             <div className="col-md-3">
 
